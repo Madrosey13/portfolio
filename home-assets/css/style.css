@@ -136,4 +136,19 @@ footer{
     }
 }
 
+/* Mess with the min-width, most like change to max-width? */
+@media screen and (min-width:395px){
+    header.container{
+        max-width: 360px;
+    }
+    main.container{
+        max-width: 360px;
+    }
+    nav ul{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
 /* Edge Case Tweaks */
