@@ -102,8 +102,9 @@ nav ul li a.active{
   border:3px dashed var(--accent-color-1);
 }
 
-
-
+main h2{
+    text-align:center;
+}
 
 /* Footer */
 footer{
@@ -137,7 +138,7 @@ footer{
 }
 
 /* Mess with the min-width, most like change to max-width? */
-@media screen and (min-width:395px){
+@media screen and (max-width:395px){
     header.container{
         max-width: 360px;
     }
