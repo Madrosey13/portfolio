@@ -106,12 +106,37 @@ main h2{
     text-align:center;
 }
 
+#skills{
+    display:grid;
+    grid-template:repeat(8,auto) / 8em 1fr;
+    font-size:0,9rem;
+}
+
+#skills h3{
+    grid-row:1;
+}
+
+#skills ul{
+    grid-row:1;
+    grid-column:2;
+    padding:10px 0;
+    border-bottom:1px dashed var(--accent-color-1);
+}
+
+#skills li{
+    list-style-type: square;
+}
+
+
+
 /* Footer */
 footer{
     text-align:center;
     padding:20px 0;
 }
-
+ footer a{
+    color:var(--primary-type-color);
+ }
 
 /* Media Queries */
 @media screen and (min-width:768px){
