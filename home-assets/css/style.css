@@ -106,6 +106,36 @@ main h2{
     text-align:center;
 }
 
+.related-links{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    padding:0;
+    gap:20px;
+}
+
+.related-links a{
+    border: 2px dashed #fff;
+    padding:8px 16px;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    background:rgba(0,0,0,0.65);
+    transition:(var(--main-bg-color)) 0.5s ease;
+    color:var(--primary-type-color);
+}
+
+.related-links a:hover{
+    background:var(--accent-color-1);
+}
+
+
+
+
+
+
+
+
 #skills{
     display:grid;
     grid-template:repeat(8,auto) / 8em 1fr;
@@ -151,6 +181,11 @@ footer{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 20px 0px 0px 20px;
     }
+    .related-links{
+        grid-area:related;
+        border-bottom: 1px solid #999;
+        padding-bottom:50px;
+    }
 }
 
 @media screen and (min-width:992px){
@@ -160,9 +195,14 @@ footer{
     main.container{
         max-width:960px;
     }
+    .related-links{
+        grid-area:related;
+        border-bottom:1px solid #999;
+        padding-bottom:50px;
+    }
 }
 
-/* Mess with the min-width, most like change to max-width? */
+
 @media screen and (max-width:395px){
     header.container{
         max-width: 360px;
@@ -173,6 +213,12 @@ footer{
     nav ul{
         display:grid;
         grid-template-columns: 1fr;
+    }
+    .related-links{
+        flex-direction:column;
+    }
+    .related-links a{
+        display:block;
     }
 }
 
