@@ -34,7 +34,7 @@ body{
 body{
     background:var(--main-bg-color);
     color:var(--primary-type-color);
-    line-height:1.6;
+    line-height:1.6em;
 }
 
 header h1{
