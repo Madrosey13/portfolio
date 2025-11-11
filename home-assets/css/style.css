@@ -103,29 +103,6 @@ nav ul li a.active{
   border:3px dashed var(--accent-color-1);
 }
 
-.related-links{
-    display:flex;
-    justify-content:center;
-    list-style:none;
-    padding:0;
-    gap:10px;
-}
-
-.related-links a{
-    border: 2px dashed #fff;
-    padding:8px 16px;
-    text-align:center;
-    text-decoration:none;
-    text-transform:uppercase;
-    background:rgba(0,0,0,0.65);
-    transition:(var(--main-bg-color)) 0.5s ease;
-    color:var(--primary-type-color);
-}
-
-.related-links a:hover{
-    background:var(--accent-color-1);
-}
-
 #read-more{
     text-align:center;
 }
@@ -158,9 +135,29 @@ footer{
     text-align:center;
     padding:20px 0;
 }
- footer a{
+
+.related-links{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    padding:0;
+    gap:10px;
+}
+
+.related-links a{
+    border: 2px dashed #fff;
+    padding:8px 16px;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    background:rgba(0,0,0,0.65);
+    transition:(var(--main-bg-color)) 0.5s ease;
     color:var(--primary-type-color);
- }
+}
+
+.related-links a:hover{
+    background:var(--accent-color-1);
+}
 
 /* Media Queries */
 @media screen and (min-width:768px){
