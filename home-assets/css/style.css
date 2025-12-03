@@ -119,11 +119,21 @@ main h2{
     font-size:2rem;
 }
 
-main p{
-    padding:15px;
-}
 
 /* Examples Page */
+#examples h3{
+    text-decoration:underline;
+    margin:1px;
+}
+
+#examples p{
+    margin:5px;
+}
+
+#examples ul{
+    margin:10px;
+}
+
 #examples a{
     text-align:center;
     text-decoration:none;
