@@ -145,8 +145,14 @@ main h2{
     text-decoration:underline;
     background:var(--accent-color-1);
 }
+/* Cover-letter */
+#cover-letter p{
+    margin:5px;
+}
 
-
+#read-more p{
+    color:var(--accent-color-1);
+}
 /* Footer */
 footer{
     background-color:var(--accent-color-1);
